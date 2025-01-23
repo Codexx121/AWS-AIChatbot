@@ -8,8 +8,10 @@ import streamlit as stl
 
 
 #Calling the AWS user (pre-configured)
-os.environ["AWS_PROFILE"]="AIMan"
- 
+aws_access_key = os.getenv("AWS_ACCESS_KEY_ID")
+aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
+
+
 
 #Intiating the client by specifing the aws service and region
 bed_client= boto3.client(
