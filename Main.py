@@ -1,6 +1,6 @@
 #Calling all imports
 from langchain.chains import LLMChain
-from langchain_community.llms import Bedrock
+from langchain.llms import Bedrock
 from langchain.prompts import PromptTemplate
 import boto3
 import os
