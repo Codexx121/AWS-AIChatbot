@@ -56,7 +56,7 @@ stl.title("AI Man Chatbot")
 stl.sidebar.header("Chat Options")
 language = stl.sidebar.selectbox("Choose language:", ["English", "Spanish","French"])
 tone = stl.sidebar.selectbox("Choose a tone:", ["Formal", "Informal", "Neutral"])
-complexity = stl.sidebar.selectbox("Choose the Complexity:", ["Like I'm 5 years old", "in Simple English", " A Bit Complex","Very Detailed"])
+complexity = stl.sidebar.selectbox("Choose the Complexity:", ["Like if I'm 5 years old", "in Simple English", " A Bit Complex","Very Detailed"])
 
 
 freeform_text = stl.text_area(
