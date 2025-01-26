@@ -12,7 +12,7 @@ The chatbot offers customization options for language, tone, and response comple
 
 # Installation
 1. Clone the repository
- `git clone https://github.com/your-username/ai-man-chatbot.git`
+ `git clone https://github.com/Codexx121/AWS-AIChatbot.git`
 
 
  - **Install Dependencies if not yet installed**
